@@ -1,0 +1,401 @@
+/* Responsive For Mobile Device */
+
+@media only screen and (max-width:768px){
+    .container {
+        padding: 15px;
+    }
+    nav .logo h3{
+        font-size: 30px;
+    }
+    nav .logo span{
+        font-size: 30px;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .hamberger {
+        display: block;
+        /* padding-right: 20px; */
+        font-size: 40px;
+    }
+
+    /* Banner */
+    .banner .banner-content .banner-title{
+        font-size: 36px;
+    }
+    .banner .banner-content .describtion{
+        padding:0px 10px;
+    }
+    .banner-search-bar {
+        width: 300px;
+        margin: 0 auto;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px;
+    }
+    .banner-search-bar input {
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .banner-search-bar select {
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .banner-search-bar .search-banner{
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    /* Popular Tour Section */
+    
+    .popular-section-container {
+        margin-top: 20px;
+    }
+    .popular-section-content>div {
+        width: auto;
+    }
+    
+    .popular-section-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .popular-section-content .popular-section-img img{
+        width: 100%;
+    }
+
+    /* Destination */
+    .destination-section-title h3{
+        font-size: 25px ;
+    }
+
+    .destination-section-items {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(7, 250px);
+    }
+    .maldives {
+        grid-column: 1 / -1;
+    }
+    .indonesia {
+        grid-column: 1 / -1;
+    }
+    .srilanka {
+        grid-column: 1 / -1;
+    }
+    .northAmerica {
+        grid-column: 1 / -1;
+    }
+    .kashmir{
+        grid-column: 1 / -1;
+    }
+    .bangladesh{
+        grid-column: 1 / -1;
+    }
+    .bandorbon{
+        grid-column: 1 / -1;
+    } 
+
+
+    /* Why Choose */
+
+    .choose-header h4{
+        font-size: 25px;
+    }
+    .choose-section-items>div {
+        width: 100%;
+    }
+    .choose-section-items{
+        flex-direction: column;
+    }
+    .choose-content .box-three {
+        width: 100%;
+    }
+
+    /* Discount Section */
+
+    .discount-content-header h4{
+        font-size: 20px;
+    }
+    .discount-item-one{
+        flex-direction:column ;
+    }
+    .discount-item-one>div {
+        width: 100%;
+    }
+    .discount-item .discount-item-one .discount-box{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .discount-item .discount-item-one .discount-box .discount-time i {
+        font-size: 15px;
+    }
+    .discount-item .discount-item-one .discount-box .discount-time span {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+    .discount-item .discount-item-one .discount-box h4 {
+        margin-top: 12px;
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+    .discount-item .discount-item-one .discount-box p {
+        color: #5A5A5D;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .discount-item .discount-item-one .discount-box h5 {
+        color: #FF5400;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .discount-btn{
+        display: none;
+    }
+
+
+
+    /* Blog */
+
+    .blog-post-items{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .blog-post-header h3{
+        font-size: 20px;
+    }
+
+
+
+    /* Video Section */
+    .video-section {
+        margin: 40px 0px;
+    }
+    
+    .video-content>div {
+        width: 100%;
+    }
+    
+    .video-content {
+        flex-direction: column;
+        
+    }
+    
+    .video-content .video-content-img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .video-content-text h4{
+    font-size: 22px;
+    }
+
+
+    /* Newsletter Section */
+    .newsletter-section {
+        margin: 50px 0px;
+    }
+    .newsletter-content{
+        flex-direction: column;
+    }
+    .newsletter-content .newsletter-img {
+        width: 100%;
+    }
+    .newsletter-content .newsletter-form {
+        width: 100%;
+    }
+    
+
+    /* footer */
+    .footer-content .logo {
+        font-size: 24px;
+    }
+    
+    .footer-content .logo span {
+        font-size: 24px;
+    }
+    
+    .footer-content p {
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 20px;
+        padding: 0px 20px;
+    }
+    
+    .footer-content .footer-social i {
+        color: #424247;
+        font-size: 20px;
+        margin: 0px 8px;
+    }
+    
+    .footer-content .footer-social {
+        margin-bottom: 25px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    
+    .footer-content .bottom-footer {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+/* Responsive For Medium Device */ 
+
+@media only screen and (min-width:768px) and (max-width:1140px){
+    .container {
+        padding: 15px;
+    }
+    nav .logo h3{
+        font-size: 30px;
+    }
+    nav .logo span{
+        font-size: 30px;
+    }
+    .navigation ul{
+        gap: 12px;
+    }
+    .navigation ul li a {
+        font-size: 16px;
+    }
+    .hamberger {
+        display: none;
+    }
+
+    /* Banner */
+    .banner .banner-content .banner-title{
+        font-size: 36px;
+    }
+    .banner .banner-content .describtion{
+        padding:0px 25px;
+    }
+    .banner-search-bar {
+        width: 55 0px;
+        margin: 0 auto;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        gap: 10px;
+        padding: 12px;
+    }
+    .banner-search-bar input {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .banner-search-bar select {
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .banner-search-bar .search-banner{
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+     /* Popular Tour Section */
+        .popular-section-content>div {
+            width: auto;
+        }
+        
+        .popular-section-content {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        .popular-section-content .popular-section-img img{
+            width: 100%;
+        }
+    
+    /* Destination */
+
+    .destination-section-items {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(4, 300px);
+       
+    }
+    .maldives {
+        grid-column: 1 / span 6;
+    }
+    .indonesia {
+        grid-column: 7 / span 6;
+    }
+    .srilanka {
+        grid-column: 1 / -1;   
+    }
+    .northAmerica {
+        grid-column: 1 / span 6;
+    }
+    .kashmir{
+        grid-column: 7 / span 6;
+    }
+    .bangladesh{
+        grid-column: 1 / span 6;
+    }
+    .bandorbon{
+        grid-column: 7 / span 6;
+    }
+
+
+
+        /* Discount Section */
+        .discount-item .discount-item-one .discount-box{
+            width: 50%;
+            margin-right: 20px;
+        }
+        .discount-item .discount-item-one .discount-box .discount-time i {
+            font-size: 15px;
+        }
+        .discount-item .discount-item-one .discount-box .discount-time span {
+            margin-right: 5px;
+            font-size: 15px;
+        }
+        .discount-item .discount-item-one .discount-box h4 {
+            margin-top: 12px;
+            color: #131318;
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 5px;
+        }
+        .discount-item .discount-item-one .discount-box p {
+            color: #5A5A5D;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+        .discount-item .discount-item-one .discount-box h5 {
+            color: #FF5400;
+            font-size: 20px;
+            font-weight: 800;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+
+        .blog-post-items{
+            flex-direction: column;
+            gap: 10px;
+        }
+}
+
+
+
+
+/* Tablet Device */
