@@ -34,8 +34,13 @@
     border: none;
     padding: 12px 25px;
     margin-top: 20px;
+    transition: all 0.5s 0.1s;
 }
-
+.btn-primary:hover{
+    background: transparent;
+    border: 1px solid #FF5400;
+    color: #FF5400;
+}
 main {
     width: 82%;
     max-width: 1440px;
