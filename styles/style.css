@@ -801,6 +801,7 @@ footer {
 .footer-content hr{
     color: rgba(119, 117, 117, 0.15);
     width: 80%;
+    margin: 0 auto;
 }
 .footer-content .bottom-footer {
     margin-top: 40px;
